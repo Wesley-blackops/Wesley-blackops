@@ -11,16 +11,14 @@ Wesley-blackops/Wesley-blackops is a ✨ special ✨ repository because its `REA
 You can click the Preview link to take a look at your changes.
 --->
 
-UNIT -1 
-1. difference b/t mobile computing and wireless network
-2. features and objectives of mac protocol in mobile computing
-3. applications of mobile computing
-4. compare fdma/cdma
-5. limitations of mobile computing 
+define compiler design with construction tools
+what are the formats of target code in compiler design
+what is the function of lexical analyzer
+define left recursion and left factoring 
+what are the error recovery strategies 
+define dfa and nfa 
+define token patterns and leaemes 
 
-UNIT 2 - 2marks
-1. mobility management list out the fucntions of mobile management
-2. Hard handover & soft handover 
-3. Handover & types
-4. List out the category of different service GSM
-5. State the objectives of UMTS
+different between ambiguous and nonambiguous grammer 
+define phrase level error parsing 
+write cfg
