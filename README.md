@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Wesley-blackops  <!------ curl -F "uploadedfile=@/path/to/my/file" http://mywebserver.com/uploads.php -->
 - 👀 I’m interested in ...   <!---- (System.Net.Webclient).UploadFile('http://localhost/up.php', 'file.txt') --->
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently learning ... <!---- 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
@@ -22,3 +22,25 @@ define token patterns and leaemes
 different between ambiguous and nonambiguous grammer 
 define phrase level error parsing 
 write cfg
+----------------------------------------------------------
+OPIC : Private Data Repository 
+ 
+Abstract: 
+
+Main feature of this is works with command-line with built-in scripting languages
+
+this service allows you to upload data with different file format 
+
+this repo is running in an container so light weight and fast 
+
+Access from anywhere with internet
+
+Works Without any requriements of 3rd party softwares
+
+Files can be downloaded with credentials
+
+Disadvantages && existence system
+* There are different repos but that need an external software that need to be installed to do further actions.
+
+->Existence (IEEE)
+https://ieeexplore.ieee.org/document/5501737
