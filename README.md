@@ -1,3 +1,31 @@
+PHP 
+Intro / Overview
+syntax ->
+variables -> ..
+Datatypes -> 
+
+Strings --> strlen(), str_word_count()
+
+Numbers
+
+Math -> pi()
+
+if/else/elseif
+switch
+loop
+functions
+arrays
+
+
+
+
+
+
+
+
+
+
+
 - 👋 Hi, I’m @Wesley-blackops  <!------ curl -F "uploadedfile=@/path/to/my/file" http://mywebserver.com/uploads.php -->
 - 👀 I’m interested in ...   <!---- (System.Net.Webclient).UploadFile('http://localhost/up.php', 'file.txt') --->
 - 🌱 I’m currently learning ... <!---- 
