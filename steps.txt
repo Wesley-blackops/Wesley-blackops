@@ -1,0 +1,55 @@
+1) reconisance: 
+search.censys.io
+crt.sh
+virustotal
+
+optional: chaos.projectdiscovery.io
+
+
+next:
+
+2) enumeration :-
+
+Sub-domain finders -->
+
+subfinder -d <website> -all > result.txt
+
+assetfinder -subs-only <sub.domain> > resutl.txt
+
+
+sort -u all_sub_domain.txt
+
+ffuf -u https://FUZZ.domain.com -w n0kovo_subdomains/med.txt -o output.txt
+
+
+2.1) Check domain alive or not:
+
+******************** cat domain.txt | sudo httpx > live-websites.txt ****************************************
+
+2.2) Subdomain takeover:
+
+subzy run --targets domain.txt
+
+also : 
+
+nuclei -l domain.txt -t nuclei-templates/detect-all-takeovers.yaml
+
+
+2.3) then fetch useful urls from the above retrived links
+
+katana -u http://domain.com -o urls.txt
+
+nuclei -l live_domain.txt -t nuclei-templates/detect-all-takeovers.yaml
+
+python3 onforall.py --target ./domain.txt run
+
+
+if katana fails:
+
+{ try ( waybacksurl) 
+
+then check ( use cat urls.txt | grep "=") 
+
+grep search
+
+grep *?*=
