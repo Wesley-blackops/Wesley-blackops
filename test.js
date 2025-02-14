@@ -1,1 +1,1 @@
-alert("XSS Executed! " + document.domain);
+alert("XSS Executed");
